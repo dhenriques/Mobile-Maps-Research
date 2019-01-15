@@ -1,0 +1,562 @@
+Route Number,ETA,Distance,Route,Time
+1,30 min,21.8 miles,I-405 S Long Beach,Wed Oct  3 23:22:24 2018
+2,30 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:22:24 2018
+3,27 min,21.6 miles,I-405 S HOV Carson; I-405 S Long Beach,Wed Oct  3 23:22:24 2018
+1,30 min,21.8 miles,I-405 S Long Beach,Wed Oct  3 23:22:47 2018
+2,30 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:22:47 2018
+3,27 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:22:47 2018
+1,30 min,21.8 miles,I-405 S Long Beach,Wed Oct  3 23:23:09 2018
+2,30 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:23:09 2018
+3,27 min,21.8 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:23:09 2018
+1,30 min,21.8 miles,I-405 S Long Beach,Wed Oct  3 23:23:31 2018
+2,29 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:23:31 2018
+3,27 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:23:31 2018
+1,30 min,21.8 miles,I-405 S Long Beach,Wed Oct  3 23:23:53 2018
+2,30 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:23:53 2018
+3,27 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:23:53 2018
+1,29 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:24:15 2018
+2,31 min,21.8 miles,I-405 S Long Beach,Wed Oct  3 23:24:15 2018
+3,27 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:24:15 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:24:38 2018
+2,32 min,21.6 miles,I-405 S Carson,Wed Oct  3 23:24:38 2018
+3,31 min,29.5 miles,I-105 E HOV Paramount,Wed Oct  3 23:24:38 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:25:01 2018
+2,31 min,21.6 miles,I-405 S Carson,Wed Oct  3 23:25:01 2018
+3,31 min,29.5 miles,I-105 E HOV Paramount,Wed Oct  3 23:25:01 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:25:23 2018
+2,31 min,21.6 miles,I-405 S Carson,Wed Oct  3 23:25:23 2018
+3,31 min,29.5 miles,I-105 E HOV Paramount,Wed Oct  3 23:25:23 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:25:45 2018
+2,32 min,21.6 miles,I-405 S Carson,Wed Oct  3 23:25:45 2018
+3,31 min,29.5 miles,I-105 E HOV Paramount,Wed Oct  3 23:25:45 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:26:08 2018
+2,32 min,21.6 miles,I-405 S Carson,Wed Oct  3 23:26:08 2018
+3,31 min,29.5 miles,I-105 E HOV Paramount,Wed Oct  3 23:26:08 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:26:30 2018
+2,32 min,21.6 miles,I-405 S Carson,Wed Oct  3 23:26:30 2018
+3,31 min,29.8 miles,I-105 E HOV Paramount,Wed Oct  3 23:26:30 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:26:52 2018
+2,33 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:26:52 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:26:52 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:27:14 2018
+2,33 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:27:14 2018
+3,29 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:27:14 2018
+1,30 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:27:36 2018
+2,33 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:27:36 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:27:36 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:27:59 2018
+2,33 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:27:59 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:27:59 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:28:21 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:28:21 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:28:21 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:28:43 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:28:43 2018
+3,29 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:28:43 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:29:05 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:29:05 2018
+3,30 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:29:05 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:29:27 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:29:27 2018
+3,30 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Wed Oct  3 23:29:27 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:29:49 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:29:49 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:29:49 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:30:11 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:30:11 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:30:11 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:30:34 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:30:34 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:30:34 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:30:56 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:30:56 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:30:56 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:31:18 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:31:18 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:31:18 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:31:40 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:31:40 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:31:40 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:32:02 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:32:02 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:32:02 2018
+1,29 min,27.4 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:32:24 2018
+2,32 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:32:24 2018
+3,29 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:32:24 2018
+1,29 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:32:47 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:32:47 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:32:47 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:33:09 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:33:09 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:33:09 2018
+1,29 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:33:31 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:33:31 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:33:31 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:33:53 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:33:53 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:33:53 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:34:15 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:34:15 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:34:15 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:34:38 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:34:38 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:34:38 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:35:00 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:35:00 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:35:00 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:35:22 2018
+2,33 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:35:22 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:35:22 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:35:44 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:35:44 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:35:44 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:36:06 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:36:06 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:36:06 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:36:28 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:36:28 2018
+3,27 min,27.3 miles,I-405 S Lawndale; SR-91 E HOV,Wed Oct  3 23:36:28 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:36:51 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:36:51 2018
+3,27 min,27.3 miles,I-405 S Lawndale; SR-91 E HOV,Wed Oct  3 23:36:51 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:37:13 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:37:13 2018
+3,27 min,27.3 miles,I-405 S Lawndale; SR-91 E HOV,Wed Oct  3 23:37:13 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:37:35 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:37:35 2018
+3,27 min,27.3 miles,I-405 S Lawndale; SR-91 E HOV,Wed Oct  3 23:37:35 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:37:57 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:37:57 2018
+3,27 min,27.3 miles,I-405 S Lawndale; SR-91 E HOV,Wed Oct  3 23:37:57 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:38:19 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:38:19 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:38:19 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:38:41 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:38:41 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:38:41 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:39:03 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:39:03 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:39:03 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:39:25 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:39:25 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:39:25 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:39:47 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:39:47 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:39:47 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:40:10 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:40:10 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:40:10 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:40:32 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:40:32 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:40:32 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:40:54 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:40:54 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:40:54 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:41:16 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:41:16 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:41:16 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:41:38 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:41:38 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:41:38 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:42:01 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:42:01 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:42:01 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:42:23 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:42:23 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:42:23 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:42:45 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:42:45 2018
+3,27 min,27.3 miles,I-405 S Lawndale; SR-91 E HOV,Wed Oct  3 23:42:45 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:43:07 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:43:07 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:43:07 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:43:29 2018
+2,32 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:43:29 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:43:29 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:43:51 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:43:51 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:43:51 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:44:14 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:44:14 2018
+3,26 min,27.3 miles,I-405 S Torrance; SR-91 E HOV,Wed Oct  3 23:44:14 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:44:36 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:44:36 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:44:36 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:44:58 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:44:58 2018
+3,26 min,27.3 miles,I-405 S Torrance; SR-91 E HOV,Wed Oct  3 23:44:58 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:45:20 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:45:20 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:45:20 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:45:42 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:45:42 2018
+3,26 min,27.3 miles,I-405 S Torrance; SR-91 E HOV,Wed Oct  3 23:45:42 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:46:04 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:46:04 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:46:04 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:46:27 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:46:27 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:46:27 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:46:49 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:46:49 2018
+3,27 min,27.3 miles,I-405 S Torrance; SR-91 E HOV,Wed Oct  3 23:46:49 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:47:11 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:47:11 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:47:11 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:47:33 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:47:33 2018
+3,27 min,27.3 miles,I-405 S Torrance; SR-91 E HOV,Wed Oct  3 23:47:33 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:47:55 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:47:55 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:47:55 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:48:17 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:48:17 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:48:17 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:48:40 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:48:40 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:48:40 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:49:02 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:49:02 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:49:02 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:49:24 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:49:24 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:49:24 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:49:46 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:49:46 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:49:46 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:50:08 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:50:08 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:50:08 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:50:30 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:50:30 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:50:30 2018
+1,28 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:50:52 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:50:52 2018
+3,26 min,27.3 miles,I-405 S Torrance; SR-91 E HOV,Wed Oct  3 23:50:52 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Wed Oct  3 23:51:14 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:51:14 2018
+3,26 min,27.3 miles,I-405 S Torrance; SR-91 E HOV,Wed Oct  3 23:51:14 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:51:37 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:51:37 2018
+3,27 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:51:37 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:51:59 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:51:59 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:51:59 2018
+1,27 min,26.9 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Wed Oct  3 23:52:21 2018
+2,30 min,22.3 miles,I-405 S Carson; E Willow St Signal Hill,Wed Oct  3 23:52:21 2018
+3,28 min,29.3 miles,I-405 S Carson; SR-91 E HOV; I-605 S,Wed Oct  3 23:52:21 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:52:43 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:52:43 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:52:43 2018
+1,28 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:53:05 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:53:05 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:53:05 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:53:27 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:53:27 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:53:27 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:53:49 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:53:49 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:53:49 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:54:11 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:54:11 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:54:11 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:54:33 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:54:33 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:54:33 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:54:56 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:54:56 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:54:56 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:55:18 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:55:18 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:55:18 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:55:40 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:55:40 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:55:40 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:56:02 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:56:02 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:56:02 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:56:24 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:56:24 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:56:24 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:56:46 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:56:46 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:56:46 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:57:09 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:57:09 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:57:09 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:57:31 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:57:31 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:57:31 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:57:53 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:57:53 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:57:53 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:58:15 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:58:15 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:58:15 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:58:38 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:58:38 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:58:38 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:59:00 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:59:00 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:59:00 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:59:22 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:59:22 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:59:22 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Wed Oct  3 23:59:44 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Wed Oct  3 23:59:44 2018
+3,26 min,27.3 miles,SR-91 E HOV,Wed Oct  3 23:59:44 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:00:06 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:00:06 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:00:06 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:00:28 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:00:28 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:00:28 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:00:51 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:00:51 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:00:51 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:01:13 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:01:13 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:01:13 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:01:35 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:01:35 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:01:35 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:01:57 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:01:57 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:01:57 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:02:19 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:02:19 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:02:19 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:02:41 2018
+2,42 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:02:41 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:02:41 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:03:03 2018
+2,42 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:03:03 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:03:03 2018
+1,27 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:03:26 2018
+2,43 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:03:26 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:03:26 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:03:49 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:03:49 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:03:49 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:04:11 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:04:11 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:04:11 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:04:33 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:04:33 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:04:33 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:04:55 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:04:55 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:04:55 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:05:17 2018
+2,31 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:05:17 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:05:17 2018
+1,27 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:05:39 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:05:39 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:05:39 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:06:02 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:06:02 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:06:02 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:06:24 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:06:24 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:06:24 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:06:46 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:06:46 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:06:46 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:07:08 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:07:08 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:07:08 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:07:30 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:07:30 2018
+3,26 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:07:30 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:07:53 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:07:53 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:07:53 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:08:14 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:08:14 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:08:14 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:08:37 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:08:37 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:08:37 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:08:59 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:08:59 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:08:59 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:09:21 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:09:21 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:09:21 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:09:43 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:09:43 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:09:43 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:10:05 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:10:05 2018
+3,26 min,22.2 miles,I-405 S HOV Carson; I-405 S Long Beach,Thu Oct  4 00:10:05 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:10:28 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:10:28 2018
+3,26 min,22.2 miles,I-405 S HOV Carson; I-405 S Long Beach,Thu Oct  4 00:10:28 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:10:50 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:10:50 2018
+3,26 min,22.2 miles,I-405 S HOV Carson; I-405 S Long Beach,Thu Oct  4 00:10:50 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:11:12 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:11:12 2018
+3,26 min,22.2 miles,I-405 S HOV Carson; I-405 S Long Beach,Thu Oct  4 00:11:12 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:11:34 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:11:34 2018
+3,25 min,22.2 miles,I-405 S HOV Carson; I-405 S Long Beach,Thu Oct  4 00:11:34 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:11:57 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:11:57 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:11:57 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:12:19 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:12:19 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:12:19 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:12:41 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:12:41 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:12:41 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:13:03 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:13:03 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:13:03 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:13:25 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:13:25 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:13:25 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:13:47 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:13:47 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:13:47 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:14:10 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:14:10 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:14:10 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:14:32 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:14:32 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:14:32 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:14:54 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:14:54 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:14:54 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:15:16 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:15:16 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:15:16 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:15:38 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:15:38 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:15:38 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:16:00 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:16:00 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:16:00 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:16:23 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:16:23 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:16:23 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:16:45 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:16:45 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:16:45 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:17:07 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:17:07 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:17:07 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:17:29 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:17:29 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:17:29 2018
+1,26 min,22.1 miles,I-405 S Long Beach,Thu Oct  4 00:17:52 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:17:52 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:17:52 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:18:14 2018
+2,30 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:18:14 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:18:14 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:18:36 2018
+2,29 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:18:36 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:18:36 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:18:58 2018
+2,29 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:18:58 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:18:58 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:19:20 2018
+2,29 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:19:20 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:19:20 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:19:42 2018
+2,29 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:19:42 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:19:42 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:20:05 2018
+2,29 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:20:05 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:20:05 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:20:27 2018
+2,29 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:20:27 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:20:27 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:20:49 2018
+2,29 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:20:49 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:20:49 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:21:11 2018
+2,28 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:21:11 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:21:11 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:21:33 2018
+2,28 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:21:33 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:21:33 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:21:56 2018
+2,28 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:21:56 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:21:56 2018
+1,26 min,22.1 miles,E Spring St Signal Hill; I-405 S Long Beach,Thu Oct  4 00:22:18 2018
+2,26 min,21.6 miles,I-405 S Long Beach,Thu Oct  4 00:22:18 2018
+3,25 min,27.3 miles,SR-91 E HOV,Thu Oct  4 00:22:18 2018
+1,26 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:22:41 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:22:41 2018
+3,24 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:22:41 2018
+1,25 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:23:06 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:23:06 2018
+3,22 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:23:06 2018
+1,25 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:23:28 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:23:28 2018
+3,22 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:23:28 2018
+1,24 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:23:50 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:23:50 2018
+3,22 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:23:50 2018
+1,24 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:24:12 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:24:12 2018
+3,22 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:24:12 2018
+1,24 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:24:35 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:24:35 2018
+3,21 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:24:35 2018
+1,23 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:24:57 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:24:57 2018
+3,21 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:24:57 2018
+1,23 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:25:19 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:25:19 2018
+3,21 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:25:19 2018
+1,23 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:25:41 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:25:41 2018
+3,20 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:25:41 2018
+1,22 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:26:03 2018
+2,29 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:26:03 2018
+3,20 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:26:03 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:26:25 2018
+2,30 min,29.7 miles,I-105 E; I-605 S,Thu Oct  4 00:26:25 2018
+3,20 min,21.6 miles,"I-405 S, I-405 S HOV Carson",Thu Oct  4 00:26:25 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:26:47 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:26:47 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:26:47 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:27:09 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:27:09 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:27:09 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:27:32 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:27:32 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:27:32 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:27:54 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:27:54 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:27:54 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:28:16 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:28:16 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:28:16 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:28:39 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:28:39 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:28:39 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:29:01 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:29:01 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:29:01 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:29:23 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:29:23 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:29:23 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:29:45 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:29:45 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:29:45 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:30:07 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:30:07 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:30:07 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:30:29 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:30:29 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:30:29 2018
+1,21 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:30:51 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:30:51 2018
+3,20 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:30:51 2018
+1,20 min,21.8 miles,I-405 S Long Beach,Thu Oct  4 00:31:13 2018
+2,26 min,27.3 miles,I-405 S Torrance; SR-91 E Bellflower; I-605 S,Thu Oct  4 00:31:13 2018
+3,19 min,21.6 miles,I-405 S; I-405 S HOV Long Beach,Thu Oct  4 00:31:13 2018
