@@ -2,24 +2,30 @@ import csv
 import time
 from selenium import webdriver
 import pymysql
+from apscheduler.schedulers.blocking import BlockingScheduler
+import logging
 
-db = pymysql.connect(host="ec2-18-216-116-132.us-east-2.compute.amazonaws.com",
+logging.basicConfig()
+scheduler = BlockingScheduler()
+
+
+db = pymysql.connect(host="ec2-52-14-113-176.us-east-2.compute.amazonaws.com",
                      user="Kean",
-                     passwd="MobileMapsResearch0718!",
-                     db="MapData_DC",)
-
+                     passwd="MobileMaps0718",
+                     db="test",)
 cursor = db.cursor()
 
 url = 'https://www.google.com/maps/dir/38.3401459,-77.4927847/38.7402636,-77.1897071/@38.7420607,-77.1920187,16.54z/data=!4m2!4m1!3e0'
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
-
-browser = webdriver.Chrome(executable_path='..\chromedriver',chrome_options=chrome_options)
+browser = webdriver.Chrome(executable_path='/home/ec2-user/chromedriver',chrome_options=chrome_options)
 
 def grabAndSave():
+    ts = time.time()
+    readable = time.ctime(ts)
     browser.get(url)
-    time.sleep(3)
+    time.sleep(5)
     
     # Selects route 1 (unique) and retrieves route info        
     nav = browser.find_element_by_xpath("//*[@id='section-directions-trip-0']/div[2]/div[1]/div[2]/h1[1]/span")
@@ -34,16 +40,25 @@ def grabAndSave():
     distancedata1 = (distance1.text).splitlines()
     
     #Prints out Route 1 results
-    print("Route: " + data[0] +" | Time: " + timedata1[0] + " | Distance: " + distancedata1[0])
-    
+    print("Route 1: " + data[0] +" | Time: " + timedata1[0] + " | Distance: " + distancedata1[0])
+
+    route2 = False;
+    route3 = False;
+
     # Prepare clicker for route 2
-    check1 = False;
     try:
-        check1 = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[2]/h1[1]/span")
+        route2 = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[2]/h1[1]/span")
     except:
         print("There is no route 2 this time!")
 
-    if (check1):
+    # Prepare Clicker for Route 3
+    try:
+        route3 = browser.find_element_by_xpath(
+            "//*[@id='section-directions-trip-2']/div[2]/div[1]/div[2]/h1[1]/span")
+    except:
+        print("There is no route 3 this time!")
+
+    if (route2):
         # Gets route info from route 2
         nav1 = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[2]/h1[1]/span")
         data1 = (nav1.text).splitlines()
@@ -59,14 +74,9 @@ def grabAndSave():
         #Prints out Route 2 results
         print("Route: " + data1[0] +" | Time: " + timedata2[0] + " | Distance: " + distancedata2[0])
 
-    # Prepare Clicker for Route 3
-    check2 = False;
-    try:
-        check2 = browser.find_element_by_xpath("//*[@id='section-directions-trip-2']/div[2]/div[1]/div[2]/h1[1]/span")
-    except:
-        print("There is no route 3 this time!")
+
     # Check if there is a route 3 available
-    if (check2):
+    if (route3):
         # Get route info from Route 3
         nav2 = browser.find_element_by_xpath("//*[@id='section-directions-trip-2']/div[2]/div[1]/div[2]/h1[1]/span")
         data2 = (nav2.text).splitlines()
@@ -79,16 +89,16 @@ def grabAndSave():
         #Prints out Route 1 results
         print("Route: " + data2[0] +" | Time: " + timedata3[0] + " | Distance: " + distancedata3[0])
 
-    print(readable)
-    writer.writerow({'Route Number': 1, 'ETA': timedata1[0], 'Distance': distancedata1[0], 'Route': data[0], 'Time': readable})
-    if (check1):
-        writer.writerow({'Route Number': 2,'ETA': timedata2[0], 'Distance': distancedata2[0], 'Route': data1[0], 'Time': readable})
-    if (check2):
-        writer.writerow({'Route Number': 3,'ETA': timedata3[0], 'Distance': distancedata3[0], 'Route': data2[0], 'Time': readable})
-    print ("Cycle completed\n\n")
+    # print(readable)
+    # writer.writerow({'Route Number': 1, 'ETA': timedata1[0], 'Distance': distancedata1[0], 'Route': data[0], 'Time': readable})
+    # if (route2):
+    #     writer.writerow({'Route Number': 2,'ETA': timedata2[0], 'Distance': distancedata2[0], 'Route': data1[0], 'Time': readable})
+    # if (route3):
+    #     writer.writerow({'Route Number': 3,'ETA': timedata3[0], 'Distance': distancedata3[0], 'Route': data2[0], 'Time': readable})
+    # print ("Cycle completed\n\n")
 
     # upload to db
-    sql = "INSERT INTO `GoogleMaps` (`routenum`, `eta`, `distance`, `route`, `time`) VALUES (%s, %s, %s, %s, %s)"
+    sql = "INSERT INTO `querytest` (`routenum`, `eta`, `distance`, `route`, `time`) VALUES (%s, %s, %s, %s, %s)"
 
     routenum1 = 1
     eta1 = timedata1[0]
@@ -96,13 +106,13 @@ def grabAndSave():
     routeinfo1 = data[0]
     currtime = readable
 
-    if (check1):
+    if (route2):
         routenum2 = 2
         eta2 = timedata2[0]
         routedistance2 = distancedata2[0]
         routeinfo2 = data1[0]
 
-    if (check2):
+    if (route3):
         routenum3 = 3
         eta3 = timedata3[0]
         routedistance3 = distancedata3[0]
@@ -114,12 +124,12 @@ def grabAndSave():
             db.commit()
 
             print("Route 1 data uploaded to database")
-            if (check1):
+            if (route2):
                 cursor.execute(sql, (routenum2, eta2, routedistance2, routeinfo2, currtime))
                 db.commit()
                 print("Route 2 data uploaded to database")
 
-            if (check2):
+            if (route3):
                 cursor.execute(sql, (routenum3, eta3, routedistance3, routeinfo3, currtime))
                 db.commit()
                 print("Route 3 data uploaded to database")
@@ -128,20 +138,23 @@ def grabAndSave():
     except Exception:
         print("Exception, there was an error uploading to the database")
 
+scheduler.add_job(grabAndSave, 'cron', minute='00,15,30,45')
 
-with open('googleMapsDataCA.csv', 'w', newline='') as csvfile:
-    fieldnames = ['Route Number', 'ETA', 'Distance', 'Route', 'Time']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
+scheduler.start()
 
-    try:
-        while True:
-            ts = time.time()
-            readable = time.ctime(ts)
-            grabAndSave()
-            time.sleep(1) # 298 second day, gives 2 seconds for the program to run
-    except KeyboardInterrupt:
-        print("\n\nStopped by KEYBOARD INTERRUMPTION\n\n")
-        pass
+# with open('googleMapsDataCA.csv', 'w', newline='') as csvfile:
+#     fieldnames = ['Route Number', 'ETA', 'Distance', 'Route', 'Time']
+#     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#     writer.writeheader()
+#
+#     try:
+#         while True:
+#             ts = time.time()
+#             readable = time.ctime(ts)
+#             grabAndSave()
+#             time.sleep(1)
+#     except KeyboardInterrupt:
+#         print("\n\nStopped by KEYBOARD INTERRUPTION\n\n")
+#         pass
 
 browser.close()
