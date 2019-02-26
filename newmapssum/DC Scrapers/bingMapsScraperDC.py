@@ -12,7 +12,6 @@ db = pymysql.connect(host="ec2-52-14-113-176.us-east-2.compute.amazonaws.com",
                      user="Kean",
                      passwd="MobileMaps0718",
                      db="ScraperData",)
-
 cursor = db.cursor()
 
 url = 'https://binged.it/2B8Zawy'
@@ -40,7 +39,7 @@ def grabAndSave():
     distancedata1 = (distance1.text).splitlines()
     
     #Prints out Route 1 results
-    print("Route: " + data1[0] +" | Time: " + timedata1[0] + " | Distance: " + distancedata1[0])
+    print("Route 1: " + data1[0] +" | Time: " + timedata1[0] + " | Distance: " + distancedata1[0])
 
     # Test if a Route 2 or Route 3 is available
     route2 = False;
@@ -59,7 +58,7 @@ def grabAndSave():
     if (route2):
         # Gets route info from Route 2
         nav1 = browser.find_element_by_xpath("//*[@id='directionsPanelRoot']/div[2]/ul/li[2]/a/table/tr/td[2]/div/table[1]/tr/td[1]/p[4]")
-        data1 = (nav1.text).splitlines()
+        data2 = (nav1.text).splitlines()
 
         #Retrieves time data from Route 2
         time2 = browser.find_element_by_xpath("//*[@id='directionsPanelRoot']/div[2]/ul/li[2]/a/table/tr/td[1]/div/table")
@@ -70,35 +69,28 @@ def grabAndSave():
         distancedata2 = (distance2.text).splitlines()
 
         #Prints out Route 2 results
-        print("Route: " + data1[0] +" | Time: " + timedata2[0] + " | Distance: " + distancedata2[0])
+        print("Route: " + data2[0] +" | Time: " + timedata2[0] + " | Distance: " + distancedata2[0])
 
-
-
+    # If route 3 is available, grab route 3 data
     if (route3):
         # Get route info from Route 3
         nav2 = browser.find_element_by_xpath("//*[@id='directionsPanelRoot']/div[2]/ul/li[3]/a/table/tr/td[2]/div/table[1]/tr/td[1]/p[4]")
-        data2 = (nav2.text).splitlines()
+        data3 = (nav2.text).splitlines()
+
         #Retrieves time data from Route 3
         time3 = browser.find_element_by_xpath("//*[@id='directionsPanelRoot']/div[2]/ul/li[3]/a/table/tr/td[1]/div/table")
         timedata3 = (time3.text).splitlines()
+
         #Retrieves distance data from Route 3
         distance3 = browser.find_element_by_xpath("//*[@id='directionsPanelRoot']/div[2]/ul/li[3]/a/table/tr/td[2]/div/table[1]/tr/td[2]")
         distancedata3 = (distance3.text).splitlines()
+
         #Prints out Route 3 results
-        print("Route: " + data2[0] +" | Time: " + timedata3[0] + " | Distance: " + distancedata3[0])
-
-    print(readable)
-    writer.writerow({'Route Number': 1, 'ETA': timedata1[0] + " min", 'Distance': distancedata1[0], 'Route': data1[0], 'Time': readable})
-    if (route2):
-        writer.writerow({'Route Number': 2,'ETA': timedata2[0] + " min", 'Distance': distancedata2[0], 'Route': data1[0], 'Time': readable})
-    if (route3):
-        writer.writerow({'Route Number': 3,'ETA': timedata3[0] + " min", 'Distance': distancedata3[0], 'Route': data2[0], 'Time': readable})
-    print ("Cycle completed\n\n")
-
+        print("Route: " + data3[0] +" | Time: " + timedata3[0] + " | Distance: " + distancedata3[0])
 
     #upload to db
-    sql = "INSERT INTO `BingMaps` (`routenum`, `eta`, `distance`, `route`, `time`) VALUES (%s, %s, %s, %s, %s)"
-
+    sql = "INSERT INTO `DC_BingMaps` (`routenum`, `eta`, `distance`, `route`, `time`) VALUES (%s, %s, %s, %s, %s)"
+    #DC_BingMaps
     routenum1 = 1
     eta1 = timedata1[0] + " min"
     routedistance1 = distancedata1[0]
@@ -137,23 +129,37 @@ def grabAndSave():
     except Exception:
         print("Exception, there was an error uploading to the database")
 
-
-
-
-
-with open('bingMapsDataCA.csv', 'w', newline='') as csvfile:
-    fieldnames = ['Route Number', 'ETA', 'Distance', 'Route', 'Time']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
-
-    try:
-        while True:
-            ts = time.time()
-            readable = time.ctime(ts)
-            grabAndSave()
-            time.sleep(5) # 298 second day, gives 2 seconds for the program to run
-    except KeyboardInterrupt:
-        print("\n\nStopped by KEYBOARD INTERRUMPTION\n\n")
-        pass
+#Adds new scraping job every 15 minutes
+scheduler.add_job(grabAndSave, 'cron', minute='00,15,30,45')
+#Begins jobs
+scheduler.start()
+scheduler.print_jobs()
+logging.getLogger('apscheduler').setLevel(logging.DEBUG)
 
 browser.close()
+
+#Old CSV Code below
+
+    # print(readable)
+#     #     writer.writerow({'Route Number': 1, 'ETA': timedata1[0] + " min", 'Distance': distancedata1[0], 'Route': data1[0], 'Time': readable})
+#     #     if (route2):
+#     #         writer.writerow({'Route Number': 2,'ETA': timedata2[0] + " min", 'Distance': distancedata2[0], 'Route': data1[0], 'Time': readable})
+#     #     if (route3):
+#     #         writer.writerow({'Route Number': 3,'ETA': timedata3[0] + " min", 'Distance': distancedata3[0], 'Route': data2[0], 'Time': readable})
+#     #     print ("Cycle completed\n\n")
+
+# with open('bingMapsDataCA.csv', 'w', newline='') as csvfile:
+#     fieldnames = ['Route Number', 'ETA', 'Distance', 'Route', 'Time']
+#     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#     writer.writeheader()
+#
+#     try:
+#         while True:
+#             ts = time.time()
+#             readable = time.ctime(ts)
+#             grabAndSave()
+#             time.sleep(5) # 298 second day, gives 2 seconds for the program to run
+#     except KeyboardInterrupt:
+#         print("\n\nStopped by KEYBOARD INTERRUMPTION\n\n")
+#         pass
+
