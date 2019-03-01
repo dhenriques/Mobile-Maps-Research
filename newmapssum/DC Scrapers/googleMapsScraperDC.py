@@ -53,34 +53,37 @@ def route1(timeOfRetrieval):
 
 
 def route2(timeOfRetrieval):
-    # If Route 2 is available, grab Route 2 data
+
     try:
         # Gets route info from Route 2
         route = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[2]/h1[1]/span")
+
+        # If Route 3 is available, grab Route 2 data
+        if (route):
+            route = (route.text).splitlines()
+
+            # Retrieves time data from Route 2
+            eta = browser.find_element_by_xpath(
+                "//*[@id='section-directions-trip-1']/div[2]/div[1]/div[1]/div[1]/span[1]")
+            eta = (eta.text).splitlines()
+
+            # Retrieves distance data from Route 2
+            distance = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[1]/div[2]")
+            distance = (distance.text).splitlines()
+
+            # Saves only the needed data
+            eta = eta[0]
+            distance = distance[0]
+            route = route[0]
+
+            # Prints out Route 2 results
+            print("Route 2: " + route + " | Time: " + eta + " | Distance: " + distance)
+
+            upload(2, eta, distance, route, timeOfRetrieval)
     except:
         print("There is no route 2 this time!")
 
-    if (route):
-        route = (route.text).splitlines()
 
-        # Retrieves time data from Route 2
-        eta = browser.find_element_by_xpath(
-            "//*[@id='section-directions-trip-1']/div[2]/div[1]/div[1]/div[1]/span[1]")
-        eta = (eta.text).splitlines()
-
-        # Retrieves distance data from Route 2
-        distance = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[1]/div[2]")
-        distance = (distance.text).splitlines()
-
-        # Saves only the needed data
-        eta = eta[0]
-        distance = distance[0]
-        route = route[0]
-
-        # Prints out Route 2 results
-        print("Route 2: " + route + " | Time: " + eta + " | Distance: " + distance)
-
-        upload(2, eta, distance, route, timeOfRetrieval)
 
 
 def route3(timeOfRetrieval):
@@ -89,32 +92,34 @@ def route3(timeOfRetrieval):
         # Get route info from Route 3
         route = browser.find_element_by_xpath(
             "//*[@id='section-directions-trip-2']/div[2]/div[1]/div[2]/h1[1]/span")
+
+        # If Route 3 is available, grab Route 3 data
+        if (route):
+            route = (route.text).splitlines()
+
+            # Retrieves time data from Route 3
+            eta = browser.find_element_by_xpath(
+                "//*[@id='section-directions-trip-2']/div[2]/div[1]/div[1]/div[1]/span[1]")
+            eta = (eta.text).splitlines()
+
+            # Retrieves distance data from Route 3
+            distance = browser.find_element_by_xpath("//*[@id='section-directions-trip-2']/div[2]/div[1]/div[1]/div[2]")
+            distance = (distance.text).splitlines()
+
+            # Saves only the needed data
+            eta = eta[0]
+            distance = distance[0]
+            route = route[0]
+
+            # Prints out Route 3 results
+            print("Route 3: " + route + " | Time: " + eta + " | Distance: " + distance)
+
+            upload(3, eta, distance, route, timeOfRetrieval)
+
     except:
         print("There is no route 3 this time!")
 
 
-    # If Route 3 is available, grab Route 3 data
-    if (route):
-        route = (route.text).splitlines()
-
-        # Retrieves time data from Route 3
-        eta = browser.find_element_by_xpath(
-            "//*[@id='section-directions-trip-2']/div[2]/div[1]/div[1]/div[1]/span[1]")
-        eta = (eta.text).splitlines()
-
-        # Retrieves distance data from Route 3
-        distance = browser.find_element_by_xpath("//*[@id='section-directions-trip-2']/div[2]/div[1]/div[1]/div[2]")
-        distance = (distance.text).splitlines()
-
-        #Saves only the needed data
-        eta = eta[0]
-        distance = distance[0]
-        route = route[0]
-
-        # Prints out Route 3 results
-        print("Route 3: " + route + " | Time: " + eta + " | Distance: " + distance)
-
-        upload(3, eta, distance, route, timeOfRetrieval)
 
 
 def upload(routeNum, eta, distance, road, timeOfRetrieval):
