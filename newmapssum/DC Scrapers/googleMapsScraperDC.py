@@ -54,27 +54,25 @@ def route1(timeOfRetrieval):
 
 def route2(timeOfRetrieval):
     # If Route 2 is available, grab Route 2 data
-    route2 = False
-
     try:
-        route2 = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[2]/h1[1]/span")
+        # Gets route info from Route 2
+        route = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[2]/h1[1]/span")
     except:
         print("There is no route 2 this time!")
 
-    if (route2):
-        # Gets route info from Route 2
-        route = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[2]/h1[1]/span")
+    if (route):
         route = (route.text).splitlines()
 
         # Retrieves time data from Route 2
         eta = browser.find_element_by_xpath(
             "//*[@id='section-directions-trip-1']/div[2]/div[1]/div[1]/div[1]/span[1]")
-        timedata2 = (eta.text).splitlines()
+        eta = (eta.text).splitlines()
 
         # Retrieves distance data from Route 2
         distance = browser.find_element_by_xpath("//*[@id='section-directions-trip-1']/div[2]/div[1]/div[1]/div[2]")
         distance = (distance.text).splitlines()
 
+        # Saves only the needed data
         eta = eta[0]
         distance = distance[0]
         route = route[0]
@@ -85,19 +83,18 @@ def route2(timeOfRetrieval):
         upload(2, eta, distance, route, timeOfRetrieval)
 
 
-def route3():
-    # If Route 3 is available, grab Route 3 data
-    route3 = False;
+def route3(timeOfRetrieval):
 
     try:
-        route3 = browser.find_element_by_xpath(
+        # Get route info from Route 3
+        route = browser.find_element_by_xpath(
             "//*[@id='section-directions-trip-2']/div[2]/div[1]/div[2]/h1[1]/span")
     except:
         print("There is no route 3 this time!")
 
-    if (route3):
-        # Get route info from Route 3
-        route = browser.find_element_by_xpath("//*[@id='section-directions-trip-2']/div[2]/div[1]/div[2]/h1[1]/span")
+
+    # If Route 3 is available, grab Route 3 data
+    if (route):
         route = (route.text).splitlines()
 
         # Retrieves time data from Route 3
@@ -109,6 +106,7 @@ def route3():
         distance = browser.find_element_by_xpath("//*[@id='section-directions-trip-2']/div[2]/div[1]/div[1]/div[2]")
         distance = (distance.text).splitlines()
 
+        #Saves only the needed data
         eta = eta[0]
         distance = distance[0]
         route = route[0]
@@ -116,11 +114,11 @@ def route3():
         # Prints out Route 3 results
         print("Route 3: " + route + " | Time: " + eta + " | Distance: " + distance)
 
-        upload()
+        upload(3, eta, distance, route, timeOfRetrieval)
 
 
 def upload(routeNum, eta, distance, road, timeOfRetrieval):
-    # upload to db
+    # Upload to db
     sql = "INSERT INTO `DC_GoogleMaps` (`routenum`, `eta`, `distance`, `route`, `time`) VALUES (%s, %s, %s, %s, %s)"
 
     try:
@@ -136,10 +134,13 @@ def upload(routeNum, eta, distance, road, timeOfRetrieval):
 def apscheduler():
     logging.basicConfig()
     scheduler = BlockingScheduler()
+
     # Adds new scraping job every 15 minutes
     scheduler.add_job(grabAndSave, 'cron', minute='00,15,30,45')
+
     # Begins jobs
     scheduler.start()
+
     scheduler.print_jobs()
     logging.getLogger('apscheduler').setLevel(logging.DEBUG)
 
@@ -147,7 +148,7 @@ def apscheduler():
 apscheduler()
 browser.close()
 
-    #Old CSV Code below
+#Old CSV Code below
 
     # print(readable)
     # writer.writerow({'Route Number': 1, 'ETA': timedata1[0], 'Distance': distancedata1[0], 'Route': data[0], 'Time': readable})
