@@ -5,6 +5,8 @@ import pymysql
 from apscheduler.schedulers.blocking import BlockingScheduler
 import logging
 
+
+
 db = pymysql.connect(host="ec2-52-14-113-176.us-east-2.compute.amazonaws.com",
                      user="Kean",
                      passwd="MobileMaps0718",
@@ -18,6 +20,7 @@ chrome_options.add_argument('--no-sandbox')
 browser = webdriver.Chrome(executable_path='/home/ec2-user/chromedriver',chrome_options=chrome_options)
 
 
+
 def grabAndSave():
     ts = time.time()
     timeOfRetrieval = time.ctime(ts)
@@ -27,6 +30,7 @@ def grabAndSave():
     route1(timeOfRetrieval)
     route2(timeOfRetrieval)
     route3(timeOfRetrieval)
+
 
 
 def route1(timeOfRetrieval):
@@ -50,6 +54,7 @@ def route1(timeOfRetrieval):
     print("Route 1: " + route + " | Time: " + eta + " | Distance: " + distance)
 
     upload(1, eta, distance, route, timeOfRetrieval)
+
 
 
 def route2(timeOfRetrieval):
@@ -82,7 +87,6 @@ def route2(timeOfRetrieval):
             upload(2, eta, distance, route, timeOfRetrieval)
     except:
         print("There is no route 2 this time!")
-
 
 
 
@@ -121,7 +125,6 @@ def route3(timeOfRetrieval):
 
 
 
-
 def upload(routeNum, eta, distance, road, timeOfRetrieval):
     # Upload to db
     sql = "INSERT INTO `DC_GoogleMaps` (`routenum`, `eta`, `distance`, `route`, `time`) VALUES (%s, %s, %s, %s, %s)"
@@ -136,6 +139,7 @@ def upload(routeNum, eta, distance, road, timeOfRetrieval):
         print("Exception, there was an error uploading to the database")
 
 
+
 def apscheduler():
     logging.basicConfig()
     scheduler = BlockingScheduler()
@@ -148,6 +152,7 @@ def apscheduler():
 
     scheduler.print_jobs()
     logging.getLogger('apscheduler').setLevel(logging.DEBUG)
+
 
 
 apscheduler()
