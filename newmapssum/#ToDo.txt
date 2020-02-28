@@ -1,5 +1,0 @@
-Share code between programs with common files/programs
-Neaten up code
-Readme file
-Archive csv functions?
-Group like code into methods to organize better
